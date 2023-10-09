@@ -1,0 +1,20 @@
+{% load static%}
+
+<nav class="navbar navbar-expand-lg green-bar navbar-dark" style="background: #632C7F !important;">
+    <div class="container">
+      <a class="navbar-brand fw-bold fst-italic" href="/">Centro Comunitario</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'blog:posts' %}" style="color: white;">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/admin" style="color: white;">Admin</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

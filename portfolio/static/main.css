@@ -1,0 +1,21 @@
+body{
+    background-color: #F5F5F5;
+}
+.bg-black-solid{
+    background: #BCC5CE;
+}
+.t-white-solid{
+    color: #070707;
+}
+.t-gray-solid{
+    /*color: grey !important;*/
+    color: #0f0f0f !important;
+}
+.card-project:hover{
+    border: 1px solid #103778;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.green-bar{
+    background: #632C7F !important;
+}
